@@ -13,13 +13,13 @@ of transactions to detect which ones are potential fraud.
 # What's next?
 
 That's it — we now have a working fraud detection pipeline:
-● A local Kafka cluster that acts as a centralised streaming platform.
-● A transaction generator which produces transactions to the cluster.
-● A fraud detector which processes transactions, detects potentially fraudulous ones
+- ● A local Kafka cluster that acts as a centralised streaming platform.
+- ● A transaction generator which produces transactions to the cluster.
+- ● A fraud detector which processes transactions, detects potentially fraudulous ones
 and produces the results in two separate topics.
 You might be wondering — what's next?
 There are many ways in which this system could be improved or extended. Here are just a
 few ideas:
-● Implement a better fraud detection algorithm
-● Send alerts or reports about fraudulent transactions somewhere: email, notifications,
+- ● Implement a better fraud detection algorithm
+- ● Send alerts or reports about fraudulent transactions somewhere: email, notifications,
 a Slack bot — anything!
